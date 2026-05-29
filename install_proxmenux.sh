@@ -840,7 +840,7 @@ install_normal_version() {
     ((current_step++))
     show_progress $current_step $total_steps "Installing ProxMenux Monitor"
     
-    install_proxmenux_monitor
+    #install_proxmenux_monitor
     local monitor_status=$?
     
     if [ $monitor_status -eq 0 ]; then
@@ -975,7 +975,7 @@ install_translation_version() {
     ((current_step++))
     show_progress $current_step $total_steps "Installing ProxMenux Monitor"
     
-    install_proxmenux_monitor
+    #install_proxmenux_monitor
     local monitor_status=$?
     
     if [ $monitor_status -eq 0 ]; then
